@@ -7,6 +7,6 @@ Jeg hadde litt trøbbel med feilmeldinger i Actions. Jeg måtte gjøre følgende
 - Endre .yml fil til å bruke riktig java versjon 
 - Fjernet optional i malen fra github (Dette ga for første gang grønne tester, men det ser ikke ut til at noen av testene mine faktisk ble kjørt)
 - Endre pom filen til å bruke en spesifikk versjon av JUnit (5.9.1) *
-- Legge til maven-surefire-plugin i pom fil. *
+- Legge til maven-surefire-plugin i pom fil. (Etter dette steget kjører alle testene i actions)*
 
 * Kilde https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html
